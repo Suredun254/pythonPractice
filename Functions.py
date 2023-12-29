@@ -1,8 +1,10 @@
-# def greet():
-#     print('Hello')
-#     print('good morning')
-#
-# # greet()
+#--------------- functions-----------------
+
+def greet():
+    print('Hello')
+    print('good morning')
+
+greet()
 
 def add_sub(x, y):
     c = x + y
