@@ -1,12 +1,21 @@
-pos=-1
+pos = -1
+
+
 def search(list, n):
     i = 0
 
-    while i < len(list):
+    # while i < len(list):
+    #     if list[i] == n:
+    #         globals()['pos']=i
+    #         return True
+    #     i += 1
+    # return False
+
+    for i in list:
         if list[i] == n:
-            globals ()['pos']=i
+            globals()['pos'] = i
             return True
-        i += 1
+
     return False
 
 
